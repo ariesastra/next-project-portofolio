@@ -19,14 +19,6 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <style global jsx>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-          body{
-            font-family: 'Yusei Magic', sans-serif;
-          }
-        `}
-        </style>
       </html>
     )
   }

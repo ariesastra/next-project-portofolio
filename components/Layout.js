@@ -42,8 +42,10 @@ const Layout = ({children, title}) => {
         &copy; {new Date().getFullYear()}
       </footer>
       <style jsx>
-      {`
+      {`         
+        @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
         .root {
+          font-family: 'Yusei Magic', sans-serif;
           display: flex;
           justify-content: center;
           align-items: center;
