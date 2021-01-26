@@ -1,10 +1,12 @@
-import React from 'react'
+
+// COMPONENTS
+import Layout from '../components/Layout'
 
 const index = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
+    <Layout title="Homepage">
+      <p>Welcome to Homepage Index</p>
+    </Layout>
   )
 }
 
